@@ -1,0 +1,15 @@
+// Print repeated character pattern. 
+#include <bits/stdc++.h>
+using namespace std;
+int main (){
+    int n;
+    cout << "Enter the number of rows ";
+    cin >> n;
+    for(int i=0;i<n;i++){
+        for(char ch='A';ch<='A'+i;ch++){
+            char a='A'+i;
+            cout << a;
+        }
+        cout << endl;
+    }
+}
